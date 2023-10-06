@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <h2 class="text-center">Check your BMI</h2>
+            <p id="intro-text" class="text-center">Enter your weight and height below to check your BMI results</p>
+            <form action="">
+                <div id="weight-input">
+                    <p>Put your weight in here (KG)</p>
+                    <input type="number" id="weight" pattern="[0-9]*" name="a">
+                </div>
+                <div id="height-input">
+                    <p>And your height in here (CM)</p>
+                    <input type="number" id="height" pattern="[0-9]*" name="b">
+                </div>
+                <button class="btn" type="button">Calculate BMI</button>
+            </form>
+            <div id="results" class="text-center">Your BMI results will appear here</div>
+        </div>
+    </div>
+</body>
+</html>

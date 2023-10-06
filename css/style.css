@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  background-image: url("/bmi/img/man-2604149_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  width: 100%;
+  padding: 20px 14px;
+  border: 2px solid #201f1d;
+}
+
+input {
+  width: 100%;
+  padding: 20px 14px;
+  border: 2px solid #201f1d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.container .panel {
+  margin: 100px;
+  float: none;
+}
+@media (width: 912px) {
+  .container .panel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 200px 0;
+  }
+}
+@media (min-width: 768px) {
+  .container .panel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .container .panel {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 400px) {
+  .container .panel {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.container .panel .text-center {
+  background-color: #fff;
+  padding: 20px;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.container .panel form {
+  background-color: transparent;
+  padding: 20px;
+  color: #000;
+}
+@keyframes shake {
+  0% {
+    font-size: 1em;
+  }
+  50% {
+    font-size: 1.1em;
+  }
+  100% {
+    font-size: 1em;
+  }
+}
+.container .panel form #weight-input {
+  margin: 100px 0;
+}
+.container .panel form #weight-input p {
+  color: white;
+}
+.container .panel form #height-input {
+  margin: 100px 0;
+}
+.container .panel form #height-input p {
+  color: white;
+}
+.container .panel form .btn {
+  font-size: 1em;
+  margin: 100px 0;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+  border-color: white;
+  cursor: pointer;
+  animation: shake 3s infinite;
+}
+.container .panel form .btn:hover {
+  color: black;
+  background: white;
+  transition: 1.2s;
+}
+.container .panel form p:nth-child(1) {
+  margin-top: 0;
+}
+.container .panel form p {
+  margin-bottom: 5px;
+}
+.container .panel .text-center {
+  border-radius: 5px;
+}
+.container .panel .dynamic-text-center {
+  font-size: 1.6em;
+  color: white;
+  background-color: grey;
+  padding: 25px;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */
