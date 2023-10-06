@@ -10,7 +10,7 @@ body {
   font-size: 1.5em;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
-  background-image: url("/img/man-2604149_1920.jpg");
+  background-image: url("../img/man-2604149_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
